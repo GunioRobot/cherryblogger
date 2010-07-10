@@ -1,0 +1,12 @@
+<py-include="templates/header.html">
+
+<div id="index-container">
+<div id="month"></div>
+<py-for="entry in entries">
+<div id="title"><py-eval="entry.title"></div>
+<div id="date"><py-eval="entry.date"></div>
+</py-for>
+</div>
+
+<py-include="templates/footer.html">
+

@@ -1,0 +1,10 @@
+<py-include="templates/header.html">
+
+<div id="article">
+<div id="title"><py-eval="entry.title"></div>
+<div id="date"><py-eval="entry.date"></div>
+<div id="content"><py-eval="entry.content"></date>
+</div>
+
+<py-include="templates/footer.html">
+

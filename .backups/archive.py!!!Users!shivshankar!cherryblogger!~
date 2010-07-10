@@ -1,0 +1,12 @@
+
+import cherrypy
+from cfactory import ContentFactory
+from entry import Entry
+from cherrytemplate import renderTemplate
+
+class Archive:
+    @cherrypy.expose
+    def index(self):
+        entries = ContentFactory().getArchive()
+        return renderTemplate(file = 'templates/archive.html')
+        

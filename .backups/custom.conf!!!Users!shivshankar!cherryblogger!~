@@ -1,0 +1,6 @@
+[global]
+tools.staticdir.root = "/Users/shivshankar/cherryblogger/"
+
+[/includes]
+tools.staticdir.on = True
+tools.staticdir.dir = "includes"

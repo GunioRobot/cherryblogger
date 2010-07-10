@@ -1,0 +1,12 @@
+
+import cherrypy
+from cfactory import ContentFactory
+from entry import Entry
+from cherrytemplate import renderTemplate as render
+
+class Article:
+    def index(self):
+        entry = ContentFactory().getEntry()
+        return render(file = 'templates/article.html')
+    index.exposed = True
+        

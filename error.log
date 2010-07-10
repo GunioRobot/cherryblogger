@@ -1,0 +1,1112 @@
+[05/Jul/2010:19:37:24] ENGINE Listening for SIGHUP.
+[05/Jul/2010:19:37:24] ENGINE Listening for SIGTERM.
+[05/Jul/2010:19:37:24] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:19:37:24] ENGINE Bus STARTING
+[05/Jul/2010:19:37:24] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:19:37:24] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:19:37:24] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:19:37:24] ENGINE Bus STARTED
+[05/Jul/2010:19:38:56] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:19:38:56] ENGINE Bus STOPPING
+[05/Jul/2010:19:38:56] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:19:38:56] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:19:38:56] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:19:38:56] ENGINE Bus STOPPED
+[05/Jul/2010:19:38:56] ENGINE Bus EXITING
+[05/Jul/2010:19:38:56] ENGINE Bus EXITED
+[05/Jul/2010:19:38:56] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:19:56:06] ENGINE Listening for SIGHUP.
+[05/Jul/2010:19:56:06] ENGINE Listening for SIGTERM.
+[05/Jul/2010:19:56:06] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:19:56:06] ENGINE Bus STARTING
+[05/Jul/2010:19:56:06] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:19:56:06] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:19:56:06] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:19:56:06] ENGINE Bus STARTED
+[05/Jul/2010:19:56:10] HTTP 
+Request Headers:
+  REFERER: http://127.0.0.1:8000/
+  HOST: 127.0.0.1:8000
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+  USER-AGENT: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.10) Gecko/20100504 Firefox/3.5.10
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-us,en;q=0.5
+  ACCEPT-ENCODING: gzip,deflate
+  KEEP-ALIVE: 300
+[05/Jul/2010:19:56:10] HTTP Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/Users/shivshankar/cherryblogger/index.py", line 9, in index
+    entries = ContentFactory().getArchive()
+  File "/Users/shivshankar/cherryblogger/cfactory.py", line 15, in getArchive
+    for file in os.listdir("articles"):
+NameError: global name 'os' is not defined
+
+[05/Jul/2010:19:56:23] ENGINE Restarting because /Users/shivshankar/cherryblogger/cfactory.py changed.
+[05/Jul/2010:19:56:23] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:19:56:23] ENGINE Bus STOPPING
+[05/Jul/2010:19:56:23] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:19:56:23] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:19:56:23] ENGINE Bus STOPPED
+[05/Jul/2010:19:56:23] ENGINE Bus EXITING
+[05/Jul/2010:19:56:23] ENGINE Bus EXITED
+[05/Jul/2010:19:56:24] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:19:56:24] ENGINE Re-spawning blog.py
+[05/Jul/2010:19:56:34] ENGINE Listening for SIGHUP.
+[05/Jul/2010:19:56:34] ENGINE Listening for SIGTERM.
+[05/Jul/2010:19:56:34] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:19:56:34] ENGINE Bus STARTING
+[05/Jul/2010:19:56:34] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:19:56:34] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:19:56:34] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:19:56:34] ENGINE Bus STARTED
+[05/Jul/2010:19:57:19] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:19:57:19] ENGINE Bus STOPPING
+[05/Jul/2010:19:57:19] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:19:57:19] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:19:57:19] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:19:57:19] ENGINE Bus STOPPED
+[05/Jul/2010:19:57:19] ENGINE Bus EXITING
+[05/Jul/2010:19:57:19] ENGINE Bus EXITED
+[05/Jul/2010:19:57:19] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:20:13:17] ENGINE Listening for SIGHUP.
+[05/Jul/2010:20:13:17] ENGINE Listening for SIGTERM.
+[05/Jul/2010:20:13:17] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:20:13:17] ENGINE Bus STARTING
+[05/Jul/2010:20:13:17] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:20:13:17] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:20:13:17] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:20:13:17] ENGINE Bus STARTED
+[05/Jul/2010:20:13:22] HTTP 
+Request Headers:
+  HOST: 127.0.0.1:8000
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+  USER-AGENT: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.10) Gecko/20100504 Firefox/3.5.10
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-us,en;q=0.5
+  ACCEPT-ENCODING: gzip,deflate
+  KEEP-ALIVE: 300
+[05/Jul/2010:20:13:22] HTTP Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/Users/shivshankar/cherryblogger/index.py", line 9, in index
+    entries = ContentFactory().getArchive()
+  File "/Users/shivshankar/cherryblogger/cfactory.py", line 20, in getArchive
+    date = os.stat(file)[ST_CTIME]
+OSError: [Errno 2] No such file or directory: 'sample.txt'
+
+[05/Jul/2010:20:14:36] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:20:14:36] ENGINE Bus STOPPING
+[05/Jul/2010:20:14:36] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:20:14:36] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:20:14:36] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:20:14:36] ENGINE Bus STOPPED
+[05/Jul/2010:20:14:36] ENGINE Bus EXITING
+[05/Jul/2010:20:14:36] ENGINE Bus EXITED
+[05/Jul/2010:20:14:36] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:20:16:30] ENGINE Listening for SIGHUP.
+[05/Jul/2010:20:16:30] ENGINE Listening for SIGTERM.
+[05/Jul/2010:20:16:30] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:20:16:30] ENGINE Bus STARTING
+[05/Jul/2010:20:16:30] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:20:16:30] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:20:16:30] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:20:16:30] ENGINE Bus STARTED
+[05/Jul/2010:20:16:34] HTTP 
+Request Headers:
+  HOST: 127.0.0.1:8000
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+  USER-AGENT: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.10) Gecko/20100504 Firefox/3.5.10
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-us,en;q=0.5
+  ACCEPT-ENCODING: gzip,deflate
+  KEEP-ALIVE: 300
+[05/Jul/2010:20:16:34] HTTP Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/Users/shivshankar/cherryblogger/index.py", line 9, in index
+    entries = ContentFactory().getArchive()
+  File "/Users/shivshankar/cherryblogger/cfactory.py", line 21, in getArchive
+    date = os.stat(os.path.join(top, file))[ST_CTIME]
+NameError: global name 'ST_CTIME' is not defined
+
+[05/Jul/2010:20:16:53] ENGINE Restarting because /Users/shivshankar/cherryblogger/cfactory.py changed.
+[05/Jul/2010:20:16:53] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:20:16:53] ENGINE Bus STOPPING
+[05/Jul/2010:20:16:53] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:20:16:53] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:20:16:53] ENGINE Bus STOPPED
+[05/Jul/2010:20:16:53] ENGINE Bus EXITING
+[05/Jul/2010:20:16:53] ENGINE Bus EXITED
+[05/Jul/2010:20:16:53] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:20:16:53] ENGINE Re-spawning blog.py
+[05/Jul/2010:20:16:56] ENGINE Listening for SIGHUP.
+[05/Jul/2010:20:16:56] ENGINE Listening for SIGTERM.
+[05/Jul/2010:20:16:56] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:20:16:56] ENGINE Bus STARTING
+[05/Jul/2010:20:16:56] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:20:16:56] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:20:16:56] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:20:16:56] ENGINE Bus STARTED
+[05/Jul/2010:20:16:58] HTTP 
+Request Headers:
+  HOST: 127.0.0.1:8000
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+  USER-AGENT: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.10) Gecko/20100504 Firefox/3.5.10
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-us,en;q=0.5
+  ACCEPT-ENCODING: gzip,deflate
+  KEEP-ALIVE: 300
+[05/Jul/2010:20:16:58] HTTP Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/Users/shivshankar/cherryblogger/index.py", line 10, in index
+    return render(file = 'templates/index.html')
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrytemplate/cherrytemplate.py", line 407, in renderTemplate
+    result = ''.join(list(result))
+TypeError: sequence item 6: expected string, int found
+
+[05/Jul/2010:20:17:54] ENGINE Restarting because /Users/shivshankar/cherryblogger/cfactory.py changed.
+[05/Jul/2010:20:17:54] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:20:17:54] ENGINE Bus STOPPING
+[05/Jul/2010:20:17:54] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:20:17:54] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:20:17:54] ENGINE Bus STOPPED
+[05/Jul/2010:20:17:54] ENGINE Bus EXITING
+[05/Jul/2010:20:17:54] ENGINE Bus EXITED
+[05/Jul/2010:20:17:55] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:20:17:55] ENGINE Re-spawning blog.py
+[05/Jul/2010:20:17:56] ENGINE Listening for SIGHUP.
+[05/Jul/2010:20:17:56] ENGINE Listening for SIGTERM.
+[05/Jul/2010:20:17:56] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:20:17:56] ENGINE Bus STARTING
+[05/Jul/2010:20:17:56] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:20:17:56] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:20:17:56] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:20:17:56] ENGINE Bus STARTED
+[05/Jul/2010:20:18:01] HTTP 
+Request Headers:
+  HOST: 127.0.0.1:8000
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+  USER-AGENT: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.10) Gecko/20100504 Firefox/3.5.10
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-us,en;q=0.5
+  ACCEPT-ENCODING: gzip,deflate
+  KEEP-ALIVE: 300
+[05/Jul/2010:20:18:01] HTTP Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/Users/shivshankar/cherryblogger/index.py", line 9, in index
+    entries = ContentFactory().getArchive()
+  File "/Users/shivshankar/cherryblogger/cfactory.py", line 24, in getArchive
+    articles.append(Entry(date.__tostring__(), title, url))
+AttributeError: 'int' object has no attribute '__tostring__'
+
+[05/Jul/2010:20:18:17] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:20:18:17] ENGINE Bus STOPPING
+[05/Jul/2010:20:18:17] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:20:18:17] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:20:18:17] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:20:18:17] ENGINE Bus STOPPED
+[05/Jul/2010:20:18:17] ENGINE Bus EXITING
+[05/Jul/2010:20:18:17] ENGINE Bus EXITED
+[05/Jul/2010:20:18:17] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:20:18:39] ENGINE Listening for SIGHUP.
+[05/Jul/2010:20:18:39] ENGINE Listening for SIGTERM.
+[05/Jul/2010:20:18:39] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:20:18:39] ENGINE Bus STARTING
+[05/Jul/2010:20:18:39] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:20:18:39] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:20:18:39] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:20:18:39] ENGINE Bus STARTED
+[05/Jul/2010:20:18:59] ENGINE Restarting because /Users/shivshankar/cherryblogger/cfactory.py changed.
+[05/Jul/2010:20:18:59] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:20:18:59] ENGINE Bus STOPPING
+[05/Jul/2010:20:18:59] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:20:18:59] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:20:18:59] ENGINE Bus STOPPED
+[05/Jul/2010:20:18:59] ENGINE Bus EXITING
+[05/Jul/2010:20:18:59] ENGINE Bus EXITED
+[05/Jul/2010:20:18:59] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:20:18:59] ENGINE Re-spawning blog.py
+[05/Jul/2010:20:19:07] ENGINE Listening for SIGHUP.
+[05/Jul/2010:20:19:07] ENGINE Listening for SIGTERM.
+[05/Jul/2010:20:19:07] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:20:19:07] ENGINE Bus STARTING
+[05/Jul/2010:20:19:07] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:20:19:07] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:20:19:07] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:20:19:07] ENGINE Bus STARTED
+[05/Jul/2010:20:19:21] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:20:19:21] ENGINE Bus STOPPING
+[05/Jul/2010:20:19:21] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:20:19:21] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:20:19:21] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:20:19:21] ENGINE Bus STOPPED
+[05/Jul/2010:20:19:21] ENGINE Bus EXITING
+[05/Jul/2010:20:19:21] ENGINE Bus EXITED
+[05/Jul/2010:20:19:21] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:20:30:05] ENGINE Listening for SIGHUP.
+[05/Jul/2010:20:30:05] ENGINE Listening for SIGTERM.
+[05/Jul/2010:20:30:05] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:20:30:05] ENGINE Bus STARTING
+[05/Jul/2010:20:30:05] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:20:30:05] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:20:30:05] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:20:30:05] ENGINE Bus STARTED
+[05/Jul/2010:20:30:22] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:20:30:22] ENGINE Bus STOPPING
+[05/Jul/2010:20:30:24] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:20:30:24] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:20:30:24] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:20:30:24] ENGINE Bus STOPPED
+[05/Jul/2010:20:30:24] ENGINE Bus EXITING
+[05/Jul/2010:20:30:24] ENGINE Bus EXITED
+[05/Jul/2010:20:30:24] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:20:30:55] ENGINE Listening for SIGHUP.
+[05/Jul/2010:20:30:55] ENGINE Listening for SIGTERM.
+[05/Jul/2010:20:30:55] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:20:30:55] ENGINE Bus STARTING
+[05/Jul/2010:20:30:55] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:20:30:55] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:20:30:55] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:20:30:55] ENGINE Bus STARTED
+[05/Jul/2010:20:36:20] ENGINE Restarting because /Users/shivshankar/cherryblogger/article.py changed.
+[05/Jul/2010:20:36:20] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:20:36:20] ENGINE Bus STOPPING
+[05/Jul/2010:20:36:20] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:20:36:20] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:20:36:20] ENGINE Bus STOPPED
+[05/Jul/2010:20:36:20] ENGINE Bus EXITING
+[05/Jul/2010:20:36:20] ENGINE Bus EXITED
+[05/Jul/2010:20:36:20] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:20:36:20] ENGINE Re-spawning blog.py
+[05/Jul/2010:20:40:00] ENGINE Listening for SIGHUP.
+[05/Jul/2010:20:40:00] ENGINE Listening for SIGTERM.
+[05/Jul/2010:20:40:00] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:20:40:00] ENGINE Bus STARTING
+[05/Jul/2010:20:40:00] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:20:40:00] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:20:40:01] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:20:40:01] ENGINE Bus STARTED
+[05/Jul/2010:20:41:15] ENGINE Restarting because blog.py changed.
+[05/Jul/2010:20:41:15] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:20:41:15] ENGINE Bus STOPPING
+[05/Jul/2010:20:41:15] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:20:41:15] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:20:41:15] ENGINE Bus STOPPED
+[05/Jul/2010:20:41:15] ENGINE Bus EXITING
+[05/Jul/2010:20:41:15] ENGINE Bus EXITED
+[05/Jul/2010:20:41:15] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:20:41:15] ENGINE Re-spawning blog.py
+[05/Jul/2010:20:42:17] ENGINE Listening for SIGHUP.
+[05/Jul/2010:20:42:17] ENGINE Listening for SIGTERM.
+[05/Jul/2010:20:42:17] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:20:42:17] ENGINE Bus STARTING
+[05/Jul/2010:20:42:17] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:20:42:17] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:20:42:17] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:20:42:17] ENGINE Bus STARTED
+[05/Jul/2010:20:43:06] ENGINE Restarting because /Users/shivshankar/cherryblogger/index.py changed.
+[05/Jul/2010:20:43:06] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:20:43:06] ENGINE Bus STOPPING
+[05/Jul/2010:20:43:06] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:20:43:06] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:20:43:06] ENGINE Bus STOPPED
+[05/Jul/2010:20:43:06] ENGINE Bus EXITING
+[05/Jul/2010:20:43:06] ENGINE Bus EXITED
+[05/Jul/2010:20:43:06] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:20:43:06] ENGINE Re-spawning blog.py
+[05/Jul/2010:20:43:08] ENGINE Listening for SIGHUP.
+[05/Jul/2010:20:43:08] ENGINE Listening for SIGTERM.
+[05/Jul/2010:20:43:08] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:20:43:08] ENGINE Bus STARTING
+[05/Jul/2010:20:43:08] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:20:43:08] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:20:43:08] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:20:43:08] ENGINE Bus STARTED
+[05/Jul/2010:20:43:15] HTTP 
+Request Headers:
+  HOST: 127.0.0.1:8000
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+  USER-AGENT: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.10) Gecko/20100504 Firefox/3.5.10
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-us,en;q=0.5
+  ACCEPT-ENCODING: gzip,deflate
+  KEEP-ALIVE: 300
+[05/Jul/2010:20:43:15] HTTP Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/Users/shivshankar/cherryblogger/index.py", line 15, in article
+    return render(file = 'templates/article.html')
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrytemplate/cherrytemplate.py", line 407, in renderTemplate
+    result = ''.join(list(result))
+TypeError: sequence item 3: expected string, int found
+
+[05/Jul/2010:20:43:54] ENGINE Restarting because /Users/shivshankar/cherryblogger/cfactory.py changed.
+[05/Jul/2010:20:43:54] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:20:43:54] ENGINE Bus STOPPING
+[05/Jul/2010:20:43:54] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:20:43:54] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:20:43:54] ENGINE Bus STOPPED
+[05/Jul/2010:20:43:54] ENGINE Bus EXITING
+[05/Jul/2010:20:43:54] ENGINE Bus EXITED
+[05/Jul/2010:20:43:54] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:20:43:54] ENGINE Re-spawning blog.py
+[05/Jul/2010:20:43:57] ENGINE Listening for SIGHUP.
+[05/Jul/2010:20:43:57] ENGINE Listening for SIGTERM.
+[05/Jul/2010:20:43:57] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:20:43:57] ENGINE Bus STARTING
+[05/Jul/2010:20:43:57] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:20:43:57] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:20:43:57] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:20:43:57] ENGINE Bus STARTED
+[05/Jul/2010:20:44:40] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:20:44:40] ENGINE Bus STOPPING
+[05/Jul/2010:20:44:40] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:20:44:40] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:20:44:40] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:20:44:40] ENGINE Bus STOPPED
+[05/Jul/2010:20:44:40] ENGINE Bus EXITING
+[05/Jul/2010:20:44:40] ENGINE Bus EXITED
+[05/Jul/2010:20:44:40] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:20:49:36] ENGINE Listening for SIGHUP.
+[05/Jul/2010:20:49:36] ENGINE Listening for SIGTERM.
+[05/Jul/2010:20:49:36] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:20:49:36] ENGINE Bus STARTING
+[05/Jul/2010:20:49:36] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:20:49:36] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:20:49:36] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:20:49:36] ENGINE Bus STARTED
+[05/Jul/2010:20:49:41] HTTP 
+Request Headers:
+  HOST: 127.0.0.1:8000
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+  USER-AGENT: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.10) Gecko/20100504 Firefox/3.5.10
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-us,en;q=0.5
+  ACCEPT-ENCODING: gzip,deflate
+  KEEP-ALIVE: 300
+[05/Jul/2010:20:49:41] HTTP Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/Users/shivshankar/cherryblogger/index.py", line 9, in index
+    entries = ContentFactory().getArchive()
+  File "/Users/shivshankar/cherryblogger/cfactory.py", line 32, in getArchive
+    date = Utils.getDate(os.stat(os.path.join(top, file))[ST_CTIME])
+TypeError: unbound method getDate() must be called with Utils instance as first argument (got int instance instead)
+
+[05/Jul/2010:20:49:57] ENGINE Restarting because /Users/shivshankar/cherryblogger/cfactory.py changed.
+[05/Jul/2010:20:49:57] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:20:49:57] ENGINE Bus STOPPING
+[05/Jul/2010:20:49:57] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:20:49:57] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:20:49:57] ENGINE Bus STOPPED
+[05/Jul/2010:20:49:57] ENGINE Bus EXITING
+[05/Jul/2010:20:49:57] ENGINE Bus EXITED
+[05/Jul/2010:20:49:57] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:20:49:57] ENGINE Re-spawning blog.py
+[05/Jul/2010:20:50:01] ENGINE Listening for SIGHUP.
+[05/Jul/2010:20:50:01] ENGINE Listening for SIGTERM.
+[05/Jul/2010:20:50:01] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:20:50:01] ENGINE Bus STARTING
+[05/Jul/2010:20:50:01] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:20:50:01] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:20:50:01] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:20:50:01] ENGINE Bus STARTED
+[05/Jul/2010:20:50:04] HTTP 
+Request Headers:
+  HOST: 127.0.0.1:8000
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+  USER-AGENT: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.10) Gecko/20100504 Firefox/3.5.10
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-us,en;q=0.5
+  ACCEPT-ENCODING: gzip,deflate
+  KEEP-ALIVE: 300
+[05/Jul/2010:20:50:04] HTTP Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/Users/shivshankar/cherryblogger/index.py", line 9, in index
+    entries = ContentFactory().getArchive()
+  File "/Users/shivshankar/cherryblogger/cfactory.py", line 32, in getArchive
+    date = Utils().getDate(os.stat(os.path.join(top, file))[ST_CTIME])
+TypeError: getDate() takes exactly 1 argument (2 given)
+
+[05/Jul/2010:20:51:30] ENGINE Restarting because /Users/shivshankar/cherryblogger/cfactory.py changed.
+[05/Jul/2010:20:51:30] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:20:51:30] ENGINE Bus STOPPING
+[05/Jul/2010:20:51:30] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:20:51:30] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:20:51:30] ENGINE Bus STOPPED
+[05/Jul/2010:20:51:30] ENGINE Bus EXITING
+[05/Jul/2010:20:51:30] ENGINE Bus EXITED
+[05/Jul/2010:20:51:30] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:20:51:30] ENGINE Re-spawning blog.py
+[05/Jul/2010:20:51:32] ENGINE Listening for SIGHUP.
+[05/Jul/2010:20:51:32] ENGINE Listening for SIGTERM.
+[05/Jul/2010:20:51:32] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:20:51:32] ENGINE Bus STARTING
+[05/Jul/2010:20:51:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:20:51:32] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:20:51:32] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:20:51:32] ENGINE Bus STARTED
+[05/Jul/2010:20:51:34] HTTP 
+Request Headers:
+  HOST: 127.0.0.1:8000
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+  USER-AGENT: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.10) Gecko/20100504 Firefox/3.5.10
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-us,en;q=0.5
+  ACCEPT-ENCODING: gzip,deflate
+  KEEP-ALIVE: 300
+[05/Jul/2010:20:51:34] HTTP Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/Users/shivshankar/cherryblogger/index.py", line 9, in index
+    entries = ContentFactory().getArchive()
+  File "/Users/shivshankar/cherryblogger/cfactory.py", line 33, in getArchive
+    sdate = Utils.getDate(date)
+TypeError: unbound method getDate() must be called with Utils instance as first argument (got int instance instead)
+
+[05/Jul/2010:20:51:44] ENGINE Restarting because /Users/shivshankar/cherryblogger/cfactory.py changed.
+[05/Jul/2010:20:51:44] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:20:51:44] ENGINE Bus STOPPING
+[05/Jul/2010:20:51:44] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:20:51:44] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:20:51:44] ENGINE Bus STOPPED
+[05/Jul/2010:20:51:44] ENGINE Bus EXITING
+[05/Jul/2010:20:51:44] ENGINE Bus EXITED
+[05/Jul/2010:20:51:44] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:20:51:44] ENGINE Re-spawning blog.py
+[05/Jul/2010:20:51:46] ENGINE Listening for SIGHUP.
+[05/Jul/2010:20:51:46] ENGINE Listening for SIGTERM.
+[05/Jul/2010:20:51:46] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:20:51:46] ENGINE Bus STARTING
+[05/Jul/2010:20:51:46] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:20:51:46] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:20:51:46] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:20:51:46] ENGINE Bus STARTED
+[05/Jul/2010:20:51:47] HTTP 
+Request Headers:
+  HOST: 127.0.0.1:8000
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+  USER-AGENT: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.10) Gecko/20100504 Firefox/3.5.10
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-us,en;q=0.5
+  ACCEPT-ENCODING: gzip,deflate
+  KEEP-ALIVE: 300
+[05/Jul/2010:20:51:47] HTTP Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/Users/shivshankar/cherryblogger/index.py", line 9, in index
+    entries = ContentFactory().getArchive()
+  File "/Users/shivshankar/cherryblogger/cfactory.py", line 33, in getArchive
+    sdate = Utils().getDate(date)
+TypeError: getDate() takes exactly 1 argument (2 given)
+
+[05/Jul/2010:20:53:09] ENGINE Restarting because /Users/shivshankar/cherryblogger/cfactory.py changed.
+[05/Jul/2010:20:53:09] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:20:53:09] ENGINE Bus STOPPING
+[05/Jul/2010:20:53:09] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:20:53:09] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:20:53:09] ENGINE Bus STOPPED
+[05/Jul/2010:20:53:09] ENGINE Bus EXITING
+[05/Jul/2010:20:53:09] ENGINE Bus EXITED
+[05/Jul/2010:20:53:09] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:20:53:09] ENGINE Re-spawning blog.py
+[05/Jul/2010:20:53:11] ENGINE Listening for SIGHUP.
+[05/Jul/2010:20:53:11] ENGINE Listening for SIGTERM.
+[05/Jul/2010:20:53:11] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:20:53:11] ENGINE Bus STARTING
+[05/Jul/2010:20:53:11] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:20:53:11] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:20:53:11] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:20:53:11] ENGINE Bus STARTED
+[05/Jul/2010:20:53:12] HTTP 
+Request Headers:
+  HOST: 127.0.0.1:8000
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+  USER-AGENT: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.10) Gecko/20100504 Firefox/3.5.10
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-us,en;q=0.5
+  ACCEPT-ENCODING: gzip,deflate
+  KEEP-ALIVE: 300
+[05/Jul/2010:20:53:12] HTTP Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/Users/shivshankar/cherryblogger/index.py", line 10, in index
+    return render(file = 'templates/index.html')
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrytemplate/cherrytemplate.py", line 407, in renderTemplate
+    result = ''.join(list(result))
+TypeError: sequence item 6: expected string, int found
+
+[05/Jul/2010:20:53:32] ENGINE Restarting because /Users/shivshankar/cherryblogger/cfactory.py changed.
+[05/Jul/2010:20:53:32] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:20:53:32] ENGINE Bus STOPPING
+[05/Jul/2010:20:53:32] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:20:53:32] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:20:53:32] ENGINE Bus STOPPED
+[05/Jul/2010:20:53:32] ENGINE Bus EXITING
+[05/Jul/2010:20:53:32] ENGINE Bus EXITED
+[05/Jul/2010:20:53:32] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:20:53:32] ENGINE Re-spawning blog.py
+[05/Jul/2010:20:53:34] ENGINE Listening for SIGHUP.
+[05/Jul/2010:20:53:34] ENGINE Listening for SIGTERM.
+[05/Jul/2010:20:53:34] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:20:53:34] ENGINE Bus STARTING
+[05/Jul/2010:20:53:34] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:20:53:34] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:20:53:34] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:20:53:34] ENGINE Bus STARTED
+[05/Jul/2010:21:01:49] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:21:01:49] ENGINE Bus STOPPING
+[05/Jul/2010:21:01:49] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:21:01:49] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:21:01:49] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:21:01:49] ENGINE Bus STOPPED
+[05/Jul/2010:21:01:49] ENGINE Bus EXITING
+[05/Jul/2010:21:01:49] ENGINE Bus EXITED
+[05/Jul/2010:21:01:49] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:21:12:56] ENGINE Listening for SIGHUP.
+[05/Jul/2010:21:12:56] ENGINE Listening for SIGTERM.
+[05/Jul/2010:21:12:56] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:21:12:56] ENGINE Bus STARTING
+[05/Jul/2010:21:12:56] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:21:12:56] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:21:12:56] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:21:12:56] ENGINE Bus STARTED
+[05/Jul/2010:21:13:02] HTTP 
+Request Headers:
+  HOST: 127.0.0.1:8000
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+  USER-AGENT: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.10) Gecko/20100504 Firefox/3.5.10
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-us,en;q=0.5
+  ACCEPT-ENCODING: gzip,deflate
+  KEEP-ALIVE: 300
+[05/Jul/2010:21:13:02] HTTP Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/Users/shivshankar/cherryblogger/index.py", line 9, in index
+    entries = ContentFactory().getArchive()
+  File "/Users/shivshankar/cherryblogger/cfactory.py", line 37, in getArchive
+    articles.append()
+TypeError: append() takes exactly one argument (0 given)
+
+[05/Jul/2010:21:13:24] ENGINE Restarting because /Users/shivshankar/cherryblogger/cfactory.py changed.
+[05/Jul/2010:21:13:24] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:21:13:24] ENGINE Bus STOPPING
+[05/Jul/2010:21:13:24] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:21:13:25] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:21:13:25] ENGINE Bus STOPPED
+[05/Jul/2010:21:13:25] ENGINE Bus EXITING
+[05/Jul/2010:21:13:25] ENGINE Bus EXITED
+[05/Jul/2010:21:13:25] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:21:13:25] ENGINE Re-spawning blog.py
+[05/Jul/2010:21:13:30] ENGINE Listening for SIGHUP.
+[05/Jul/2010:21:13:30] ENGINE Listening for SIGTERM.
+[05/Jul/2010:21:13:30] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:21:13:30] ENGINE Bus STARTING
+[05/Jul/2010:21:13:30] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:21:13:30] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:21:13:30] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:21:13:30] ENGINE Bus STARTED
+[05/Jul/2010:21:16:15] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:21:16:15] ENGINE Bus STOPPING
+[05/Jul/2010:21:16:16] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:21:16:16] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:21:16:16] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:21:16:16] ENGINE Bus STOPPED
+[05/Jul/2010:21:16:16] ENGINE Bus EXITING
+[05/Jul/2010:21:16:16] ENGINE Bus EXITED
+[05/Jul/2010:21:16:16] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:21:16:19] ENGINE Listening for SIGHUP.
+[05/Jul/2010:21:16:19] ENGINE Listening for SIGTERM.
+[05/Jul/2010:21:16:19] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:21:16:19] ENGINE Bus STARTING
+[05/Jul/2010:21:16:19] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:21:16:19] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:21:16:20] ENGINE Serving on 127.0.0.1:8000
+[05/Jul/2010:21:16:20] ENGINE Bus STARTED
+[05/Jul/2010:21:20:38] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:21:20:38] ENGINE Bus STOPPING
+[05/Jul/2010:21:20:38] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8000)) shut down
+[05/Jul/2010:21:20:38] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:21:20:38] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:21:20:38] ENGINE Bus STOPPED
+[05/Jul/2010:21:20:38] ENGINE Bus EXITING
+[05/Jul/2010:21:20:38] ENGINE Bus EXITED
+[05/Jul/2010:21:20:38] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:11:25:08] ENGINE Listening for SIGHUP.
+[05/Jul/2010:11:25:08] ENGINE Listening for SIGTERM.
+[05/Jul/2010:11:25:08] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:11:25:08] ENGINE Bus STARTING
+[05/Jul/2010:11:25:08] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:11:25:08] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:11:25:08] ENGINE Serving on 127.0.0.1:7000
+[05/Jul/2010:11:25:08] ENGINE Bus STARTED
+[05/Jul/2010:11:26:52] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:11:26:52] ENGINE Bus STOPPING
+[05/Jul/2010:11:26:52] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+[05/Jul/2010:11:26:52] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:11:26:52] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:11:26:52] ENGINE Bus STOPPED
+[05/Jul/2010:11:26:52] ENGINE Bus EXITING
+[05/Jul/2010:11:26:52] ENGINE Bus EXITED
+[05/Jul/2010:11:26:52] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:11:37:31] ENGINE Listening for SIGHUP.
+[05/Jul/2010:11:37:31] ENGINE Listening for SIGTERM.
+[05/Jul/2010:11:37:31] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:11:37:31] ENGINE Bus STARTING
+[05/Jul/2010:11:37:31] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:11:37:31] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:11:37:31] ENGINE Serving on 0.0.0.0:7000
+[05/Jul/2010:11:37:31] ENGINE Bus STARTED
+[05/Jul/2010:11:37:56]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cptools.py", line 158, in _wrapper
+    if self.callable(**kwargs):
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/lib/static.py", line 203, in staticdir
+    handled = _attempt(filename, content_types)
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/lib/static.py", line 147, in _attempt
+    serve_file(filename, content_type=content_type)
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/lib/static.py", line 37, in serve_file
+    raise ValueError("'%s' is not an absolute path." % path)
+ValueError: '~/sites/blog/includes/style.css' is not an absolute path.
+
+[05/Jul/2010:11:37:56] HTTP 
+Request Headers:
+  REFERER: http://178.18.17.72:7000/
+  HOST: 178.18.17.72:7000
+  ACCEPT: text/css,*/*;q=0.1
+  ACCEPT-CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+  USER-AGENT: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.10) Gecko/20100504 Firefox/3.5.10
+  CONNECTION: keep-alive
+  Remote-Addr: 27.57.36.196
+  ACCEPT-LANGUAGE: en-us,en;q=0.5
+  ACCEPT-ENCODING: gzip,deflate
+  KEEP-ALIVE: 300
+[05/Jul/2010:11:37:56] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cprequest.py", line 603, in respond
+    self.hooks.run('before_handler')
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cptools.py", line 158, in _wrapper
+    if self.callable(**kwargs):
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/lib/static.py", line 203, in staticdir
+    handled = _attempt(filename, content_types)
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/lib/static.py", line 147, in _attempt
+    serve_file(filename, content_type=content_type)
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/lib/static.py", line 37, in serve_file
+    raise ValueError("'%s' is not an absolute path." % path)
+ValueError: '~/sites/blog/includes/style.css' is not an absolute path.
+
+[05/Jul/2010:11:38:17]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cptools.py", line 158, in _wrapper
+    if self.callable(**kwargs):
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/lib/static.py", line 203, in staticdir
+    handled = _attempt(filename, content_types)
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/lib/static.py", line 147, in _attempt
+    serve_file(filename, content_type=content_type)
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/lib/static.py", line 37, in serve_file
+    raise ValueError("'%s' is not an absolute path." % path)
+ValueError: '~/sites/blog/includes/style.css' is not an absolute path.
+
+[05/Jul/2010:11:38:17] HTTP 
+Request Headers:
+  REFERER: http://178.18.17.72:7000/article/sample
+  HOST: 178.18.17.72:7000
+  ACCEPT: text/css,*/*;q=0.1
+  ACCEPT-CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+  USER-AGENT: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1.10) Gecko/20100504 Firefox/3.5.10
+  CONNECTION: keep-alive
+  Remote-Addr: 27.57.36.196
+  ACCEPT-LANGUAGE: en-us,en;q=0.5
+  ACCEPT-ENCODING: gzip,deflate
+  KEEP-ALIVE: 300
+[05/Jul/2010:11:38:17] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cprequest.py", line 603, in respond
+    self.hooks.run('before_handler')
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cptools.py", line 158, in _wrapper
+    if self.callable(**kwargs):
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/lib/static.py", line 203, in staticdir
+    handled = _attempt(filename, content_types)
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/lib/static.py", line 147, in _attempt
+    serve_file(filename, content_type=content_type)
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/lib/static.py", line 37, in serve_file
+    raise ValueError("'%s' is not an absolute path." % path)
+ValueError: '~/sites/blog/includes/style.css' is not an absolute path.
+
+[05/Jul/2010:11:38:27] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:11:38:27] ENGINE Bus STOPPING
+[05/Jul/2010:11:38:27] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 7000)) shut down
+[05/Jul/2010:11:38:27] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:11:38:27] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:11:38:27] ENGINE Bus STOPPED
+[05/Jul/2010:11:38:27] ENGINE Bus EXITING
+[05/Jul/2010:11:38:27] ENGINE Bus EXITED
+[05/Jul/2010:11:38:27] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:11:44:09] ENGINE Listening for SIGHUP.
+[05/Jul/2010:11:44:09] ENGINE Listening for SIGTERM.
+[05/Jul/2010:11:44:09] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:11:44:09] ENGINE Bus STARTING
+[05/Jul/2010:11:44:09] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:11:44:09] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:11:44:09] ENGINE Serving on 0.0.0.0:7000
+[05/Jul/2010:11:44:09] ENGINE Bus STARTED
+[05/Jul/2010:11:45:03] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:11:45:03] ENGINE Bus STOPPING
+[05/Jul/2010:11:45:03] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 7000)) shut down
+[05/Jul/2010:11:45:03] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:11:45:04] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:11:45:04] ENGINE Bus STOPPED
+[05/Jul/2010:11:45:04] ENGINE Bus EXITING
+[05/Jul/2010:11:45:04] ENGINE Bus EXITED
+[05/Jul/2010:11:45:04] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:12:34:41] ENGINE Listening for SIGHUP.
+[05/Jul/2010:12:34:41] ENGINE Listening for SIGTERM.
+[05/Jul/2010:12:34:41] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:12:34:41] ENGINE Bus STARTING
+[05/Jul/2010:12:34:41] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:12:34:41] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:12:34:42] ENGINE Serving on 0.0.0.0:7000
+[05/Jul/2010:12:34:42] ENGINE Bus STARTED
+[05/Jul/2010:12:37:05] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:12:37:05] ENGINE Bus STOPPING
+[05/Jul/2010:12:37:05] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 7000)) shut down
+[05/Jul/2010:12:37:05] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:12:55:29] ENGINE Listening for SIGHUP.
+[05/Jul/2010:12:55:29] ENGINE Listening for SIGTERM.
+[05/Jul/2010:12:55:29] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:12:55:29] ENGINE Bus STARTING
+[05/Jul/2010:12:55:29] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:12:55:29] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:12:55:29] ENGINE Serving on 127.0.0.1:7000
+[05/Jul/2010:12:55:29] ENGINE Bus STARTED
+[05/Jul/2010:13:03:45] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:13:03:45] ENGINE Bus STOPPING
+[05/Jul/2010:13:03:45] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+[05/Jul/2010:13:03:45] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:13:03:45] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:13:03:45] ENGINE Bus STOPPED
+[05/Jul/2010:13:03:45] ENGINE Bus EXITING
+[05/Jul/2010:13:03:45] ENGINE Bus EXITED
+[05/Jul/2010:13:03:45] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:13:37:51] ENGINE Listening for SIGHUP.
+[05/Jul/2010:13:37:51] ENGINE Listening for SIGTERM.
+[05/Jul/2010:13:37:51] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:13:37:51] ENGINE Bus STARTING
+[05/Jul/2010:13:37:51] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:13:37:51] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:13:37:51] ENGINE Serving on 127.0.0.1:7000
+[05/Jul/2010:13:37:51] ENGINE Bus STARTED
+[05/Jul/2010:13:38:16] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:13:38:16] ENGINE Bus STOPPING
+[05/Jul/2010:13:38:16] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+[05/Jul/2010:13:38:16] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:13:38:16] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:13:38:16] ENGINE Bus STOPPED
+[05/Jul/2010:13:38:16] ENGINE Bus EXITING
+[05/Jul/2010:13:38:16] ENGINE Bus EXITED
+[05/Jul/2010:13:38:16] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:13:41:51] ENGINE Listening for SIGHUP.
+[05/Jul/2010:13:41:51] ENGINE Listening for SIGTERM.
+[05/Jul/2010:13:41:51] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:13:41:51] ENGINE Bus STARTING
+[05/Jul/2010:13:41:51] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:13:41:51] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:13:41:52] ENGINE Serving on 127.0.0.1:7000
+[05/Jul/2010:13:41:52] ENGINE Bus STARTED
+[05/Jul/2010:13:44:15] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:13:44:15] ENGINE Bus STOPPING
+[05/Jul/2010:13:44:15] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+[05/Jul/2010:13:44:15] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:13:44:15] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:13:44:15] ENGINE Bus STOPPED
+[05/Jul/2010:13:44:15] ENGINE Bus EXITING
+[05/Jul/2010:13:44:15] ENGINE Bus EXITED
+[05/Jul/2010:13:44:15] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:13:56:03] ENGINE Listening for SIGHUP.
+[05/Jul/2010:13:56:03] ENGINE Listening for SIGTERM.
+[05/Jul/2010:13:56:03] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:13:56:03] ENGINE Bus STARTING
+[05/Jul/2010:13:56:03] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:13:56:03] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:13:56:04] ENGINE Serving on 127.0.0.1:7000
+[05/Jul/2010:13:56:04] ENGINE Bus STARTED
+[05/Jul/2010:13:56:26] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:13:56:26] ENGINE Bus STOPPING
+[05/Jul/2010:13:56:26] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+[05/Jul/2010:13:56:26] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:13:56:26] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:13:56:26] ENGINE Bus STOPPED
+[05/Jul/2010:13:56:26] ENGINE Bus EXITING
+[05/Jul/2010:13:56:26] ENGINE Bus EXITED
+[05/Jul/2010:13:56:26] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:13:57:45] ENGINE Listening for SIGHUP.
+[05/Jul/2010:13:57:45] ENGINE Listening for SIGTERM.
+[05/Jul/2010:13:57:45] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:13:57:45] ENGINE Bus STARTING
+[05/Jul/2010:13:57:45] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:13:57:45] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:13:57:45] ENGINE Serving on 127.0.0.1:7000
+[05/Jul/2010:13:57:45] ENGINE Bus STARTED
+[05/Jul/2010:14:09:54] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:14:09:54] ENGINE Bus STOPPING
+[05/Jul/2010:14:09:54] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+[05/Jul/2010:14:09:54] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:14:11:30] ENGINE Listening for SIGHUP.
+[05/Jul/2010:14:11:30] ENGINE Listening for SIGTERM.
+[05/Jul/2010:14:11:30] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:14:11:30] ENGINE Bus STARTING
+[05/Jul/2010:14:11:30] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:14:11:30] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:14:11:30] ENGINE Serving on 127.0.0.1:7000
+[05/Jul/2010:14:11:30] ENGINE Bus STARTED
+[05/Jul/2010:14:12:48] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:14:12:48] ENGINE Bus STOPPING
+[05/Jul/2010:14:12:48] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+[05/Jul/2010:14:12:48] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:14:12:48] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:14:12:48] ENGINE Bus STOPPED
+[05/Jul/2010:14:12:48] ENGINE Bus EXITING
+[05/Jul/2010:14:12:48] ENGINE Bus EXITED
+[05/Jul/2010:14:12:48] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:14:12:54] ENGINE Listening for SIGHUP.
+[05/Jul/2010:14:12:54] ENGINE Listening for SIGTERM.
+[05/Jul/2010:14:12:54] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:14:12:54] ENGINE Bus STARTING
+[05/Jul/2010:14:12:54] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:14:12:54] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:14:12:54] ENGINE Serving on 127.0.0.1:7000
+[05/Jul/2010:14:12:54] ENGINE Bus STARTED
+[05/Jul/2010:14:15:00] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:14:15:00] ENGINE Bus STOPPING
+[05/Jul/2010:14:15:00] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+[05/Jul/2010:14:15:00] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:14:15:30] ENGINE Listening for SIGHUP.
+[05/Jul/2010:14:15:30] ENGINE Listening for SIGTERM.
+[05/Jul/2010:14:15:30] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:14:15:30] ENGINE Bus STARTING
+[05/Jul/2010:14:15:30] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:14:15:30] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:14:15:30] ENGINE Serving on 127.0.0.1:7000
+[05/Jul/2010:14:15:30] ENGINE Bus STARTED
+[05/Jul/2010:14:16:06] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:14:16:06] ENGINE Bus STOPPING
+[05/Jul/2010:14:16:06] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+[05/Jul/2010:14:16:06] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:14:16:06] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:14:16:06] ENGINE Bus STOPPED
+[05/Jul/2010:14:16:06] ENGINE Bus EXITING
+[05/Jul/2010:14:16:06] ENGINE Bus EXITED
+[05/Jul/2010:14:16:06] ENGINE Waiting for child threads to terminate...
+[05/Jul/2010:14:18:41] ENGINE Listening for SIGHUP.
+[05/Jul/2010:14:18:41] ENGINE Listening for SIGTERM.
+[05/Jul/2010:14:18:41] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:14:18:41] ENGINE Bus STARTING
+[05/Jul/2010:14:18:41] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:14:18:41] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:14:18:41] ENGINE Serving on 127.0.0.1:7000
+[05/Jul/2010:14:18:41] ENGINE Bus STARTED
+[05/Jul/2010:21:47:51] ENGINE Listening for SIGHUP.
+[05/Jul/2010:21:47:51] ENGINE Listening for SIGTERM.
+[05/Jul/2010:21:47:51] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:21:47:51] ENGINE Bus STARTING
+[05/Jul/2010:21:47:51] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:21:47:51] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:21:47:56] ENGINE Error in 'start' listener <bound method Server.start of <cherrypy._cpserver.Server object at 0xa45a290>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/process/wspbus.py", line 147, in publish
+    output.append(listener(*args, **kwargs))
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cpserver.py", line 90, in start
+    ServerAdapter.start(self)
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/process/servers.py", line 53, in start
+    wait_for_free_port(*self.bind_addr)
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/process/servers.py", line 251, in wait_for_free_port
+    raise IOError("Port %r not free on %r" % (port, host))
+IOError: Port 7000 not free on '127.0.0.1'
+
+[05/Jul/2010:21:47:56] ENGINE Shutting down due to error in start listener:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/process/wspbus.py", line 184, in start
+    self.publish('start')
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/process/wspbus.py", line 147, in publish
+    output.append(listener(*args, **kwargs))
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/_cpserver.py", line 90, in start
+    ServerAdapter.start(self)
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/process/servers.py", line 53, in start
+    wait_for_free_port(*self.bind_addr)
+  File "/usr/local/lib/python2.6/dist-packages/cherrypy/process/servers.py", line 251, in wait_for_free_port
+    raise IOError("Port %r not free on %r" % (port, host))
+IOError: Port 7000 not free on '127.0.0.1'
+
+[05/Jul/2010:21:47:56] ENGINE Bus STOPPING
+[05/Jul/2010:21:47:56] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) already shut down
+[05/Jul/2010:21:47:56] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:21:47:56] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:21:47:56] ENGINE Bus STOPPED
+[05/Jul/2010:21:47:56] ENGINE Bus EXITING
+[05/Jul/2010:21:47:56] ENGINE Bus EXITED
+[05/Jul/2010:21:52:33] ENGINE Listening for SIGHUP.
+[05/Jul/2010:21:52:33] ENGINE Listening for SIGTERM.
+[05/Jul/2010:21:52:33] ENGINE Listening for SIGUSR1.
+[05/Jul/2010:21:52:33] ENGINE Bus STARTING
+[05/Jul/2010:21:52:33] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Jul/2010:21:52:33] ENGINE Started monitor thread 'Autoreloader'.
+[05/Jul/2010:21:52:33] ENGINE Serving on 127.0.0.1:7000
+[05/Jul/2010:21:52:33] ENGINE Bus STARTED
+[05/Jul/2010:21:52:56] ENGINE Keyboard Interrupt: shutting down bus
+[05/Jul/2010:21:52:56] ENGINE Bus STOPPING
+[05/Jul/2010:21:52:56] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+[05/Jul/2010:21:52:56] ENGINE Stopped thread 'Autoreloader'.
+[05/Jul/2010:21:52:56] ENGINE Stopped thread '_TimeoutMonitor'.
+[05/Jul/2010:21:52:56] ENGINE Bus STOPPED
+[05/Jul/2010:21:52:56] ENGINE Bus EXITING
+[05/Jul/2010:21:52:56] ENGINE Bus EXITED
+[05/Jul/2010:21:52:56] ENGINE Waiting for child threads to terminate...
+[06/Jul/2010:08:28:00] ENGINE Listening for SIGHUP.
+[06/Jul/2010:08:28:00] ENGINE Listening for SIGTERM.
+[06/Jul/2010:08:28:00] ENGINE Listening for SIGUSR1.
+[06/Jul/2010:08:28:00] ENGINE Bus STARTING
+[06/Jul/2010:08:28:00] ENGINE Started monitor thread '_TimeoutMonitor'.
+[06/Jul/2010:08:28:00] ENGINE Started monitor thread 'Autoreloader'.
+[06/Jul/2010:08:28:01] ENGINE Serving on 127.0.0.1:7000
+[06/Jul/2010:08:28:01] ENGINE Bus STARTED
+[06/Jul/2010:12:10:27] ENGINE Listening for SIGHUP.
+[06/Jul/2010:12:10:27] ENGINE Listening for SIGTERM.
+[06/Jul/2010:12:10:27] ENGINE Listening for SIGUSR1.
+[06/Jul/2010:12:10:27] ENGINE Bus STARTING
+[06/Jul/2010:12:10:27] ENGINE Started monitor thread '_TimeoutMonitor'.
+[06/Jul/2010:12:10:27] ENGINE Started monitor thread 'Autoreloader'.
+[06/Jul/2010:12:10:27] ENGINE Serving on 127.0.0.1:7000
+[06/Jul/2010:12:10:27] ENGINE Bus STARTED
+[06/Jul/2010:12:10:39] ENGINE Keyboard Interrupt: shutting down bus
+[06/Jul/2010:12:10:39] ENGINE Bus STOPPING
+[06/Jul/2010:12:10:39] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+[06/Jul/2010:12:10:40] ENGINE Stopped thread 'Autoreloader'.
+[06/Jul/2010:12:10:40] ENGINE Stopped thread '_TimeoutMonitor'.
+[06/Jul/2010:12:10:40] ENGINE Bus STOPPED
+[06/Jul/2010:12:10:40] ENGINE Bus EXITING
+[06/Jul/2010:12:10:40] ENGINE Bus EXITED
+[06/Jul/2010:12:10:40] ENGINE Waiting for child threads to terminate...
+[06/Jul/2010:12:11:13] ENGINE Listening for SIGHUP.
+[06/Jul/2010:12:11:13] ENGINE Listening for SIGTERM.
+[06/Jul/2010:12:11:13] ENGINE Listening for SIGUSR1.
+[06/Jul/2010:12:11:13] ENGINE Bus STARTING
+[06/Jul/2010:12:11:13] ENGINE Started monitor thread '_TimeoutMonitor'.
+[06/Jul/2010:12:11:13] ENGINE Started monitor thread 'Autoreloader'.
+[06/Jul/2010:12:11:13] ENGINE Serving on 127.0.0.1:7000
+[06/Jul/2010:12:11:13] ENGINE Bus STARTED
+[07/Jul/2010:06:53:46] ENGINE Listening for SIGHUP.
+[07/Jul/2010:06:53:46] ENGINE Listening for SIGTERM.
+[07/Jul/2010:06:53:46] ENGINE Listening for SIGUSR1.
+[07/Jul/2010:06:53:46] ENGINE Bus STARTING
+[07/Jul/2010:06:53:46] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Jul/2010:06:53:46] ENGINE Started monitor thread 'Autoreloader'.
+[07/Jul/2010:06:53:46] ENGINE Serving on 127.0.0.1:7000
+[07/Jul/2010:06:53:46] ENGINE Bus STARTED
+[07/Jul/2010:06:55:09] ENGINE Keyboard Interrupt: shutting down bus
+[07/Jul/2010:06:55:09] ENGINE Bus STOPPING
+[07/Jul/2010:06:55:09] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+[07/Jul/2010:06:55:09] ENGINE Stopped thread 'Autoreloader'.
+[07/Jul/2010:06:55:09] ENGINE Stopped thread '_TimeoutMonitor'.
+[07/Jul/2010:06:55:09] ENGINE Bus STOPPED
+[07/Jul/2010:06:55:09] ENGINE Bus EXITING
+[07/Jul/2010:06:55:09] ENGINE Bus EXITED
+[07/Jul/2010:06:55:09] ENGINE Waiting for child threads to terminate...
+[07/Jul/2010:07:01:30] ENGINE Listening for SIGHUP.
+[07/Jul/2010:07:01:30] ENGINE Listening for SIGTERM.
+[07/Jul/2010:07:01:30] ENGINE Listening for SIGUSR1.
+[07/Jul/2010:07:01:30] ENGINE Bus STARTING
+[07/Jul/2010:07:01:30] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Jul/2010:07:01:30] ENGINE Started monitor thread 'Autoreloader'.
+[07/Jul/2010:07:01:31] ENGINE Serving on 127.0.0.1:7000
+[07/Jul/2010:07:01:31] ENGINE Bus STARTED
+[07/Jul/2010:07:04:21] ENGINE Keyboard Interrupt: shutting down bus
+[07/Jul/2010:07:04:21] ENGINE Bus STOPPING
+[07/Jul/2010:07:04:21] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+[07/Jul/2010:07:04:21] ENGINE Stopped thread 'Autoreloader'.
+[07/Jul/2010:07:04:21] ENGINE Stopped thread '_TimeoutMonitor'.
+[07/Jul/2010:07:04:21] ENGINE Bus STOPPED
+[07/Jul/2010:07:04:21] ENGINE Bus EXITING
+[07/Jul/2010:07:04:21] ENGINE Bus EXITED
+[07/Jul/2010:07:04:21] ENGINE Waiting for child threads to terminate...
+[07/Jul/2010:07:05:09] ENGINE Listening for SIGHUP.
+[07/Jul/2010:07:05:09] ENGINE Listening for SIGTERM.
+[07/Jul/2010:07:05:09] ENGINE Listening for SIGUSR1.
+[07/Jul/2010:07:05:09] ENGINE Bus STARTING
+[07/Jul/2010:07:05:09] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Jul/2010:07:05:09] ENGINE Started monitor thread 'Autoreloader'.
+[07/Jul/2010:07:05:09] ENGINE Serving on 127.0.0.1:7000
+[07/Jul/2010:07:05:09] ENGINE Bus STARTED

@@ -11,10 +11,7 @@ class Feeds:
     def index(self):
         '''
         feeds are to be served as a file
-        type belongs to atom or rss 
         '''
-        #accepts = cherrypy.request.headers.elements('Accept')
-
         entries = ContentFactory().getArchive()
         # feeds need dates in RFC2822
         for entry in entries:
@@ -23,14 +20,8 @@ class Feeds:
             entry.url = 'http://pietisticmonk.com/blog/' + entry.url
         # publish date will be the latest post's date.
         pubdate = RFC2822(datetime.date.today().__str__())
-        
-        # serve the file
-        #for accept in accepts:
-        #    if accept.value == 'application/atom+xml':
-        #        return serve(render(file='templates/atom.xml', content_type='application/atom+xml'))
 
-        return render(file='templates/atom.xml')
-
+        return render(file='templates/rss.xml')
     index.exposed = True
 
 ''' RSS requires pub date, this would be the latest entries date '''

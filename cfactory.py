@@ -41,4 +41,4 @@ class ContentFactory:
 
 class Utils:
     def getDate(self,ctime):
-        return time.strftime("%d-%m-%Y", time.gmtime(ctime))
+        return time.strftime("%Y-%m-%d", time.gmtime(ctime))

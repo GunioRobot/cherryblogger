@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Pietistic Monk's Rants</title>
+ <link href="http://pietisticmonk.com/blog/feeds/atom.xml" rel="self"/>
+ <link href="http://pietisticmonk.com/blog/"/>
+ <updated><py-eval="pubdate"></updated>
+ <author>
+   <name>Shiv Shankar Menon</name>
+ </author>
+ 
+<py-for="entry in entries">
+ <entry>
+   <title><py-eval="entry.title"></title>
+   <link href='<py-eval="entry.url">'/>
+   <updated><py-eval="entry.date"></updated>
+ </entry>
+ </py-for>
+ 
+</feed>

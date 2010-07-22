@@ -1,0 +1,15 @@
+<py-include="templates/header.html">
+
+<div class="index">
+<ul>
+<py-for="stat in stats[0][1].keys()">
+<li>
+<py-eval="stat">
+<span><py-eval="stats[0][1][stat]"></span>
+</li>
+</py-for>
+</ul>
+</div>
+
+<py-include="templates/footer.html">
+

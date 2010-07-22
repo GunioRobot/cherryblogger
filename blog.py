@@ -13,10 +13,12 @@ __version__ = "0.1"
 import cherrypy, os
 from index import Index
 from feeds import Feeds
+from cache import Cache
 
 if __name__ == "__main__":
     root = Index()
     root.feeds = Feeds()
+    root.cache = Cache()
     cherrypy.config.update("blog.conf")
     cherrypy.quickstart(root, "/", "custom.conf")
 

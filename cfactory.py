@@ -52,7 +52,18 @@ class ContentFactory:
             self.server.set("articleindex", articles, expiry)
                     
         return articles
+    
+    def cacheStatus(self):
+        return self.server.get_stats()
 
+    def cacheClear(self, key):
+        if not key:
+            self.server.delete("articleindex")
+        else:
+            if self.server.get(key):
+                self.server.delete(key)
+        
+        
 class Utils:
     def getDate(self,ctime):
         return time.strftime("%Y-%m-%d", time.gmtime(ctime))

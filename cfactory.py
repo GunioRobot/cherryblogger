@@ -58,10 +58,11 @@ class ContentFactory:
 
     def cacheClear(self, key):
         if not key:
-            self.server.delete("articleindex")
+            return self.server.delete("articleindex")
         else:
             if self.server.get(key):
-                self.server.delete(key)
+                return self.server.delete(key)
+        return -1
         
         
 class Utils:

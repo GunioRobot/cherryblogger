@@ -10,8 +10,6 @@ top = "articles"
 expiry = 180000
 
 class ContentFactory:
-    server = ''
-    
     def __init__(self):
         self.server = memcache.Client([hostname])
 
@@ -22,9 +20,9 @@ class ContentFactory:
             path = os.path.join(top, file)
         
             entry = open(path, 'r')
-            title = file.split(".")[0]
-            blob = entry.read()
-            url = 'article/' + title
+            url = 'article/' + file.split(".")[0]
+            title, blob = entry.readline(), entry.read()
+            
             date = Utils().getDate(os.stat(os.path.join(top, file))[ST_CTIME])
             entry.close()
             e = Entry(date, title, url, blob)

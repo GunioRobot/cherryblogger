@@ -1,0 +1,26 @@
+The bad news.
+<p>
+All these days at work have been quite predictable for me. I would start the day having a glimpse on  yellow boxes on my scheduler spanning throughout the day, put in by my managers and would end up in one or the other conference room for the entire day discussing what needs to be done, how to do it.
+</p><p>
+Lately, the very existence of our team and its objectives has been challenged by out head geek, which cause an emotional turmoil from top down. Most of the long calls over some argumentative objectives are deduced undeliverable. 
+</p><p>
+I was dusting off "Mythical Man Month" today and as I flicked the pages I happened to read this,
+</p>
+<p>
+<div class="quote">
+Its common sense to take a method and try it. If it fails,
+admit it frankly and try another. But above all, try something.<br /> -  F.D Roosevelt
+</div>
+</p>
+<p>
+It kind of made me realize why we lost (or are loosing). 
+</p>
+
+
+
+
+
+
+
+
+

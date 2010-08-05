@@ -1,8 +1,12 @@
 # All dirty work goes in here.
 # This is the factory to fetch the contents
 
+# For markdown
+import sys
+sys.path.append('lib')
+
 from entry import Entry
-import os, time, memcache
+import os, time, memcache, markdown
 from stat import *
 
 hostname = "%s:%s" % ("127.0.0.1", "11211")
@@ -12,6 +16,9 @@ expiry = 180000
 class ContentFactory:
     def __init__(self):
         self.server = memcache.Client([hostname])
+        self.md = markdown.Markdown(extensions=['footnotes'],
+                                    safe_mode=False,
+                                    output_format='html4')
 
     def getEntry(self, file):
         e = self.server.get(file)
@@ -21,7 +28,10 @@ class ContentFactory:
         
             entry = open(path, 'r')
             url = 'article/' + file.split(".")[0]
-            title, blob = entry.readline(), entry.read()
+            title= entry.readline()
+            blob = entry.read()
+            ascii = "".join([Utils().to_ascii(x) for x in blob])
+            blob = self.md.convert(ascii)
             
             date = Utils().getDate(os.stat(os.path.join(top, file))[ST_CTIME])
             entry.close()
@@ -66,3 +76,9 @@ class ContentFactory:
 class Utils:
     def getDate(self,ctime):
         return time.strftime("%Y-%m-%d", time.gmtime(ctime))
+    
+    def to_ascii(self,char):
+        if ord(char) < 128:
+            return char
+        else:
+            return ''

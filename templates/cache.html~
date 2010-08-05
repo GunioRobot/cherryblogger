@@ -1,0 +1,15 @@
+<py-include="templates/header.html">
+
+<div class="index">
+<ul>
+<py-for="entry in entries">
+<li>
+<a href='<py-eval="entry.url">'><py-eval="entry.title"></a>
+<span><py-eval="entry.date"></span>
+</li>
+</py-for>
+</ul>
+</div>
+
+<py-include="templates/footer.html">
+

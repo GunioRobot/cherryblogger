@@ -76,7 +76,7 @@ h1 {
 	color:#111111;
 }
 #post {
-	margin-bottom:8em;
+	margin-bottom:40px;
 }
 #post p {
 	font-size:16px;
@@ -131,4 +131,9 @@ h1 {
 	margin-left:20px;
 	padding-left:10px;
 	line-height:140%;
+}
+
+#comments {
+    text-align: center;
+    margin-bottom: 30px;
 }
